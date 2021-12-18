@@ -4,6 +4,8 @@ https://adventofcode.com/2021
 
 | Day                                                     | Technique                                     |
 | ------------------------------------------------------- |:---------------------------------------------:|
+| [1 (Part 1)](https://adventofcode.com/2021/day/1)       | Remember value in variable                    |
+| [1 (Part 2)](https://adventofcode.com/2021/day/1)       | Sliding window                                |
 
 ## Running Code
 
