@@ -1,0 +1,40 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "name": "Debug JS",
+      "program": "${file}",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "args": [
+        "<",
+        "${relativeFileDirname}/in.txt"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "name": "Debug TS",
+      "program": "${file}",
+      "request": "launch",
+      "preLaunchTask": "tsc: build - tsconfig.json",
+      "args": [
+        "<",
+        "${relativeFileDirname}/in.txt"
+      ],
+      "console": "integratedTerminal",
+    },
+    {
+      "type": "node",
+      "name": "Debug Test",
+      "program": "${file}",
+      "request": "launch"
+    },
+  ]
+}

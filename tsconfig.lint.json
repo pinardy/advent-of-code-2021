@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.json",
+  // Override exclude list lint unit test files
+  "exclude": []
+}
