@@ -10,6 +10,8 @@ https://adventofcode.com/2021
 | [2 (Part 2)](https://adventofcode.com/2021/day/2)       | Switch case                                   |
 | [3 (Part 1)](https://adventofcode.com/2021/day/3)       | Array manipulation                            |
 | [3 (Part 2)](https://adventofcode.com/2021/day/3)       | Handling loops                                |
+| [4 (Part 1)](https://adventofcode.com/2021/day/4)       | 2D arrays (matrices)                          |
+| [4 (Part 2)](https://adventofcode.com/2021/day/4)       | 2D arrays (matrices)                          |
 
 ## Running Code
 
